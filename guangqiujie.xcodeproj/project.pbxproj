@@ -15,6 +15,7 @@
 		C1599AE421BF8B6400729063 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C1599AE321BF8B6400729063 /* main.m */; };
 		C1599AEE21BF8B6400729063 /* guangqiujieTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C1599AED21BF8B6400729063 /* guangqiujieTests.m */; };
 		C1599AF921BF8B6400729063 /* guangqiujieUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C1599AF821BF8B6400729063 /* guangqiujieUITests.m */; };
+		C1599B0821BF935500729063 /* people.m in Sources */ = {isa = PBXBuildFile; fileRef = C1599B0721BF935400729063 /* people.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		C1599AF421BF8B6400729063 /* guangqiujieUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = guangqiujieUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C1599AF821BF8B6400729063 /* guangqiujieUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = guangqiujieUITests.m; sourceTree = "<group>"; };
 		C1599AFA21BF8B6400729063 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C1599B0621BF935400729063 /* people.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = people.h; sourceTree = "<group>"; };
+		C1599B0721BF935400729063 /* people.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = people.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +113,8 @@
 				C1599ADF21BF8B6400729063 /* LaunchScreen.storyboard */,
 				C1599AE221BF8B6400729063 /* Info.plist */,
 				C1599AE321BF8B6400729063 /* main.m */,
+				C1599B0621BF935400729063 /* people.h */,
+				C1599B0721BF935400729063 /* people.m */,
 			);
 			path = guangqiujie;
 			sourceTree = "<group>";
@@ -262,6 +267,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C1599B0821BF935500729063 /* people.m in Sources */,
 				C1599AD921BF8B5D00729063 /* ViewController.m in Sources */,
 				C1599AE421BF8B6400729063 /* main.m in Sources */,
 				C1599AD621BF8B5D00729063 /* AppDelegate.m in Sources */,
