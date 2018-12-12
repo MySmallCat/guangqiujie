@@ -16,6 +16,13 @@
 		C1599AEE21BF8B6400729063 /* guangqiujieTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C1599AED21BF8B6400729063 /* guangqiujieTests.m */; };
 		C1599AF921BF8B6400729063 /* guangqiujieUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C1599AF821BF8B6400729063 /* guangqiujieUITests.m */; };
 		C1599B0821BF935500729063 /* people.m in Sources */ = {isa = PBXBuildFile; fileRef = C1599B0721BF935400729063 /* people.m */; };
+		C1599B0B21BFD4D100729063 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C1599B0A21BFD4D100729063 /* MainViewController.m */; };
+		C16C9A1521BFE06F0082D8CD /* UIView+ZWMBadge.m in Sources */ = {isa = PBXBuildFile; fileRef = C16C9A1021BFE06F0082D8CD /* UIView+ZWMBadge.m */; };
+		C16C9A1621BFE06F0082D8CD /* ZWMSegmentController.m in Sources */ = {isa = PBXBuildFile; fileRef = C16C9A1221BFE06F0082D8CD /* ZWMSegmentController.m */; };
+		C16C9A1721BFE06F0082D8CD /* ZWMSegmentView.m in Sources */ = {isa = PBXBuildFile; fileRef = C16C9A1421BFE06F0082D8CD /* ZWMSegmentView.m */; };
+		C16C9A1A21BFE0E40082D8CD /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C16C9A1921BFE0E40082D8CD /* FirstViewController.m */; };
+		C16C9A1D21BFE0F40082D8CD /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C16C9A1C21BFE0F40082D8CD /* SecondViewController.m */; };
+		C16C9A2021BFE19B0082D8CD /* ThreedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C16C9A1F21BFE19B0082D8CD /* ThreedViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +61,20 @@
 		C1599AFA21BF8B6400729063 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C1599B0621BF935400729063 /* people.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = people.h; sourceTree = "<group>"; };
 		C1599B0721BF935400729063 /* people.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = people.m; sourceTree = "<group>"; };
+		C1599B0921BFD4D100729063 /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		C1599B0A21BFD4D100729063 /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		C16C9A0F21BFE06F0082D8CD /* UIView+ZWMBadge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+ZWMBadge.h"; sourceTree = "<group>"; };
+		C16C9A1021BFE06F0082D8CD /* UIView+ZWMBadge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+ZWMBadge.m"; sourceTree = "<group>"; };
+		C16C9A1121BFE06F0082D8CD /* ZWMSegmentController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZWMSegmentController.h; sourceTree = "<group>"; };
+		C16C9A1221BFE06F0082D8CD /* ZWMSegmentController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZWMSegmentController.m; sourceTree = "<group>"; };
+		C16C9A1321BFE06F0082D8CD /* ZWMSegmentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZWMSegmentView.h; sourceTree = "<group>"; };
+		C16C9A1421BFE06F0082D8CD /* ZWMSegmentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZWMSegmentView.m; sourceTree = "<group>"; };
+		C16C9A1821BFE0E40082D8CD /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		C16C9A1921BFE0E40082D8CD /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		C16C9A1B21BFE0F40082D8CD /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		C16C9A1C21BFE0F40082D8CD /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		C16C9A1E21BFE19B0082D8CD /* ThreedViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ThreedViewController.h; sourceTree = "<group>"; };
+		C16C9A1F21BFE19B0082D8CD /* ThreedViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ThreedViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +125,7 @@
 		C1599AD321BF8B5C00729063 /* guangqiujie */ = {
 			isa = PBXGroup;
 			children = (
+				C16C9A0E21BFE06F0082D8CD /* ZWMSegment */,
 				C1599AD421BF8B5D00729063 /* AppDelegate.h */,
 				C1599AD521BF8B5D00729063 /* AppDelegate.m */,
 				C1599AD721BF8B5D00729063 /* ViewController.h */,
@@ -115,6 +137,14 @@
 				C1599AE321BF8B6400729063 /* main.m */,
 				C1599B0621BF935400729063 /* people.h */,
 				C1599B0721BF935400729063 /* people.m */,
+				C1599B0921BFD4D100729063 /* MainViewController.h */,
+				C1599B0A21BFD4D100729063 /* MainViewController.m */,
+				C16C9A1821BFE0E40082D8CD /* FirstViewController.h */,
+				C16C9A1921BFE0E40082D8CD /* FirstViewController.m */,
+				C16C9A1B21BFE0F40082D8CD /* SecondViewController.h */,
+				C16C9A1C21BFE0F40082D8CD /* SecondViewController.m */,
+				C16C9A1E21BFE19B0082D8CD /* ThreedViewController.h */,
+				C16C9A1F21BFE19B0082D8CD /* ThreedViewController.m */,
 			);
 			path = guangqiujie;
 			sourceTree = "<group>";
@@ -135,6 +165,19 @@
 				C1599AFA21BF8B6400729063 /* Info.plist */,
 			);
 			path = guangqiujieUITests;
+			sourceTree = "<group>";
+		};
+		C16C9A0E21BFE06F0082D8CD /* ZWMSegment */ = {
+			isa = PBXGroup;
+			children = (
+				C16C9A0F21BFE06F0082D8CD /* UIView+ZWMBadge.h */,
+				C16C9A1021BFE06F0082D8CD /* UIView+ZWMBadge.m */,
+				C16C9A1121BFE06F0082D8CD /* ZWMSegmentController.h */,
+				C16C9A1221BFE06F0082D8CD /* ZWMSegmentController.m */,
+				C16C9A1321BFE06F0082D8CD /* ZWMSegmentView.h */,
+				C16C9A1421BFE06F0082D8CD /* ZWMSegmentView.m */,
+			);
+			path = ZWMSegment;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -267,10 +310,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C16C9A1D21BFE0F40082D8CD /* SecondViewController.m in Sources */,
 				C1599B0821BF935500729063 /* people.m in Sources */,
+				C16C9A1A21BFE0E40082D8CD /* FirstViewController.m in Sources */,
+				C16C9A1521BFE06F0082D8CD /* UIView+ZWMBadge.m in Sources */,
 				C1599AD921BF8B5D00729063 /* ViewController.m in Sources */,
 				C1599AE421BF8B6400729063 /* main.m in Sources */,
+				C1599B0B21BFD4D100729063 /* MainViewController.m in Sources */,
+				C16C9A1621BFE06F0082D8CD /* ZWMSegmentController.m in Sources */,
 				C1599AD621BF8B5D00729063 /* AppDelegate.m in Sources */,
+				C16C9A1721BFE06F0082D8CD /* ZWMSegmentView.m in Sources */,
+				C16C9A2021BFE19B0082D8CD /* ThreedViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
